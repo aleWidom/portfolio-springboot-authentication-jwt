@@ -16,7 +16,7 @@ Technologies used:
 
 Follow these steps to install and run the project:
 
-1. Clone the repository: `git clone <your-repo-url>`
+1. Clone the repository: `git clone https://github.com/aleWidom/portfolio-springboot-authentication-jwt`
 2. Navigate to the project directory: `cd your-repo`
 3. Build the project using Maven: `mvn clean install`
 4. Run the project: `mvn spring-boot:run`
@@ -37,5 +37,5 @@ Before accessing the protected API endpoints, you need to follow these steps:
    After registration, use the `/auth/login` endpoint to authenticate with the username and password. Upon successful authentication, you'll receive a JWT token.
 
 3. **Use the JWT token**:
-   To access protected endpoints, include the JWT token in the `Authorization` header as a Bearer token:
+   To access protected endpoints, include the JWT token in the `Authorization` header as a Bearer token.
    
